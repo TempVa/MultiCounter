@@ -1,4 +1,4 @@
-package com.shvedov;
+package com.shvedov.PositiveEvenSum;
 
 import java.io.IOException;
 import java.nio.file.Files;
@@ -8,7 +8,7 @@ import java.util.List;
 import java.util.Scanner;
 import java.util.stream.Stream;
 
-class ThreadStarter {
+public class ThreadStarter {
     private List<Thread> threads;
     private Summer summer;
 

@@ -1,4 +1,4 @@
-package com.shvedov;
+package com.shvedov.PositiveEvenSum;
 
 import java.util.Scanner;
 

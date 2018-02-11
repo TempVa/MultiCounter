@@ -1,11 +1,11 @@
-package com.shvedov;
+package com.shvedov.PositiveEvenSum;
 
 class Summer {
     private int sum;
     private boolean isAlive = true;
 
     public synchronized void addNumber(int num) {
-        if (num > 0 && num % 2 == 0) {
+        if ((num > 0) && ((num % 2) == 0)) {
             this.sum += num;
             System.out.println("Current sum: " + sum);
         }
